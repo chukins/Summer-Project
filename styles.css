@@ -1,0 +1,77 @@
+html, body{
+   height: 100%
+}
+
+h1{
+   font-size: 32px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 5px;
+   text-align: center;
+   background-color:#D8A25E;
+}
+
+header{
+   background-color: #A04747;
+   padding: 5px;
+   text-align: center;
+   font-size: 24px;
+}
+
+body{
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+#content{
+   flex: 1 0 auto;
+}
+
+a{
+   text-decoration: none;
+   color: black
+}
+
+#container{
+   padding:5px;
+   border: 5px, auto, black;
+}
+
+#text-wrap{
+   display:flex;
+   gap:10px;
+}
+
+#Home-button{
+   background-color: #DCDCDC;
+   border: 1px solid #707070;
+   width: 90px;
+}
+
+#Home-button:hover{
+   background-color: #A6F4FF;
+   border: 1px solid #26A0DA
+}
+
+#Footer-banner{
+   flex-shrink: 0;
+   background-color: #A04747;
+   padding: 5px;
+   text-align: center;
+   font-size: 24px;
+}
+
+#Price-button{
+   padding:5px;
+   background-color: #DCDCDC;
+   border: 1px solid black;
+   width: 135px;
+}
+
+#Price-button:hover{
+   background-color: #a0a0a0;
+}
+
+#back-button{
+   width: 175px
+}
